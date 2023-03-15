@@ -4,6 +4,8 @@
     left: 0;
     width: 100vw;
     overflow: hidden;
+    background-image: url("skyline.PNG");
+    background-size: cover;
 }
 
 #background img {
@@ -14,7 +16,11 @@
     position: relative;
     margin-left: calc(50vw - 250px);
     width: 500px;
-    background-color: red;
+    background-color: black;
+}
+
+#building img {
+    max-width: 100%;
 }
 
 .room {
